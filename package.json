@@ -1,0 +1,35 @@
+{
+  "name": "@smarterdeck/mcp-connector",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) connector for SmarterDeck AI \u2014 Executive Presentation Suite (5-in-1)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "smarterdeck-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "smarterdeck",
+    "powerpoint",
+    "presentations",
+    "claude",
+    "cursor",
+    "drawingml",
+    "dashboard",
+    "pitch-deck"
+  ],
+  "author": "SmarterDeck AI (https://smarterdeck.com)",
+  "license": "MIT",
+  "homepage": "https://smarterdeck.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajmessina/smarterdeck-mcp-connector.git"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.1.26"
+  }
+}

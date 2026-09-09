@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schema/server.json",
+  "name": "io.github.ajmessina/smarterdeck-mcp-connector",
+  "title": "SmarterDeck AI",
+  "description": "Executive Presentation Suite (5-in-1: Editable DrawingML PPTX, Web Deck, KPI Dashboard, Whiteboard Infographic & Vector PDF)",
+  "version": "1.0.0",
+  "website": "https://smarterdeck.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajmessina/smarterdeck-mcp-connector"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse"
+    }
+  ]
+}
