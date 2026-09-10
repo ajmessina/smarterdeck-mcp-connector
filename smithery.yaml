@@ -1,6 +1,7 @@
 startCommand:
-  type: sse
+  type: http
   config:
-    url: "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse"
+    url: "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp"
     headers:
       Authorization: "Bearer ${SMARTERDECK_API_KEY}"
+# Legacy SSE fallback: https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse

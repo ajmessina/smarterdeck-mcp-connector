@@ -38,7 +38,7 @@ Add SmarterDeck to your `claude_desktop_config.json`:
       "args": [
         "-y",
         "mcp-remote",
-        "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse",
+        "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp",
         "--header",
         "Authorization: Bearer YOUR_SMARTERDECK_API_KEY"
       ]
@@ -51,13 +51,13 @@ Restart Claude Desktop. You will now see the `generate_presentation_suite` tool 
 
 ---
 
-### 3. Connect to Cursor IDE
+### 3. Connect to Cursor IDE or Glama.ai / MCP Inspector
 
-In Cursor:
-1. Open **Settings > Features > MCP > Add New MCP Server**.
-2. Set **Type**: `SSE`.
-3. Set **URL**: `https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse`.
-4. Add Header: `Authorization: Bearer YOUR_SMARTERDECK_API_KEY`.
+- **Streamable HTTP (Standard 2024-11-05 / 2025)**:  
+  Endpoint: `https://smarterdeck-backend-599892281817.us-east1.run.app/mcp`  
+  Header: `Authorization: Bearer YOUR_SMARTERDECK_API_KEY`
+- **Legacy SSE Transport**:  
+  Endpoint: `https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse`
 
 ---
 

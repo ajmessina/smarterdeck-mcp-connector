@@ -11,6 +11,10 @@
   },
   "remotes": [
     {
+      "type": "streamable-http",
+      "url": "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp"
+    },
+    {
       "type": "sse",
       "url": "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse"
     }

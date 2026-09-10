@@ -10,8 +10,8 @@
 
 import { spawn } from "child_process";
 
-// Public endpoint of the hosted SmarterDeck MCP service
-const REMOTE_SSE_URL = "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp/sse";
+// Primary Streamable HTTP endpoint of the hosted SmarterDeck MCP service
+const REMOTE_MCP_URL = process.env.SMARTERDECK_REMOTE_URL || "https://smarterdeck-backend-599892281817.us-east1.run.app/mcp";
 
 // API Key is provided by user environment variable or CLI argument
 const apiKey = process.env.SMARTERDECK_API_KEY || process.argv[2];
@@ -23,11 +23,11 @@ if (!apiKey) {
   process.exit(1);
 }
 
-// Spawns mcp-remote proxy bridging local stdio (Claude Desktop / Cursor) to remote Cloud Run SSE endpoint
+// Spawns mcp-remote proxy bridging local stdio (Claude Desktop / Cursor) to remote Cloud Run MCP endpoint
 const child = spawn("npx", [
   "-y",
   "mcp-remote",
-  REMOTE_SSE_URL,
+  REMOTE_MCP_URL,
   "--header",
   `Authorization: Bearer ${apiKey}`
 ], {
