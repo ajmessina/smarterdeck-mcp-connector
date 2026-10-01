@@ -4,7 +4,7 @@
 [![Glama MCP](https://glama.ai/mcp/connectors/app.run.us-east1.smarterdeck-backend-599892281817/smarter-deck-ai-official-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/app.run.us-east1.smarterdeck-backend-599892281817/smarter-deck-ai-official-mcp)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue.svg)](https://modelcontextprotocol.io)
 [![Zero Retention](https://img.shields.io/badge/Security-Zero--Retention-green.svg)](https://smarterdeck.com/security)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Proprietary-blue.svg)](https://smarterdeck.com/terms)
 
 > **Compile agency-grade, executive presentation suites directly from Claude Desktop, Cursor IDE, Windsurf, or any autonomous LLM agent.**
 
@@ -132,5 +132,8 @@ Claude will automatically invoke SmarterDeck and return your interactive table w
 
 ---
 
-## 📄 License
-MIT © [SmarterDeck AI](https://smarterdeck.com)
+## 📄 License & Terms of Service
+
+Copyright © 2026 [SmarterDeck AI](https://smarterdeck.com). All rights reserved.
+
+The SmarterDeck MCP Connector interface is provided for integrating with the SmarterDeck platform under the [SmarterDeck Terms of Service](https://smarterdeck.com/terms). The underlying Sideral Fusion engine, DrawingML vector compiler, and multi-format algorithms are proprietary intellectual property of SmarterDeck AI.
