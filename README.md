@@ -1,4 +1,4 @@
-# 🎯 SmarterDeck AI — Universal MCP Connector
+# SmarterDeck AI — PowerPoint MCP Server
 
 [![smithery badge](https://smithery.ai/badge/contacto-n7el/smarterdeck)](https://smithery.ai/servers/contacto-n7el/smarterdeck)
 [![Glama MCP](https://glama.ai/mcp/connectors/app.run.us-east1.smarterdeck-backend-599892281817/smarter-deck-ai-official-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/app.run.us-east1.smarterdeck-backend-599892281817/smarter-deck-ai-official-mcp)
@@ -6,9 +6,11 @@
 [![Zero Retention](https://img.shields.io/badge/Security-Zero--Retention-green.svg)](https://smarterdeck.com/security)
 [![License](https://img.shields.io/badge/License-Proprietary-blue.svg)](https://smarterdeck.com/terms)
 
-> **Compile agency-grade, executive presentation suites directly from Claude Desktop, Cursor IDE, Windsurf, or any autonomous LLM agent.**
+Turn Claude Desktop, Cursor, or any autonomous agent into a **PowerPoint generator for confidential documents**: Excel and PDF files become natively editable `.pptx` decks — real DrawingML vector shapes you can double-click and edit in Office, not flat images.
 
-SmarterDeck AI is an autonomous presentation engine that compiles a **5-in-1 multi-format suite** from a single prompt or raw enterprise dataset in under 30 seconds:
+**Zero-retention in-memory architecture for confidential data:** every file is processed in volatile memory and destroyed on completion. Nothing is stored, ever.
+
+SmarterDeck AI compiles a **5-in-1 executive multi-format suite** from a single prompt or raw enterprise dataset in under 30 seconds:
 
 1. 📊 **PowerPoint (.pptx)**: 100% native vector DrawingML shapes, custom theme typography, and editable cards (zero flat screenshots).
 2. 🌐 **Interactive Web Deck (.html)**: Responsive slides with smooth navigation and animations.
